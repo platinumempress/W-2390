@@ -24,7 +24,7 @@ h1 {
 }
 webheader {
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 </style>
 </head>

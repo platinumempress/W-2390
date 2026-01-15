@@ -20,12 +20,12 @@ body {
 }
 
 h1 {
-    color: rgb(52, 14, 70);
+    color: rgb(85, 23, 114);
     text-align: center;
 }
 
 a {
-    color: rgb(52, 14, 70);
+    color: rgb(85, 40, 145);
 }
 
 webheader {

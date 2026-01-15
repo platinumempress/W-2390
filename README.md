@@ -2,7 +2,7 @@
 <head>
 <style>
 body {
-    background-image: url('https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?q=80&w=2070');
+    background-image: url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjE3dHR0MnVlMmQ4dWh1M3BuY3d6eGxhNWhhN2dtN3FnemJ2NjN4eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0HlNQ03J5JxX6lva/giphy.gif');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -29,7 +29,7 @@ h1 {
 <body>
 <div class="content">
 
-# Web Design Projects :
+ Web Design Projects :
 
 </div>
 </body>

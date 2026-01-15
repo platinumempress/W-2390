@@ -2,7 +2,7 @@
 <head>
 <style>
 body {
-    background-image: url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjE3dHR0MnVlMmQ4dWh1M3BuY3d6eGxhNWhhN2dtN3FnemJ2NjN4eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0HlNQ03J5JxX6lva/giphy.gif');
+    background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjU0YjgyNnV2bmI4cWl4aWU5eDcwcjAxdWhiYWplazR3cnJoemoyeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7aCXpnE2y0YCCoJa/giphy.gif');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

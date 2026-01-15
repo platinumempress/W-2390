@@ -19,6 +19,9 @@ body {
     margin: 0 auto;
 }
 
+h1 {
+    text align: center;
+}
 webheader {
     font-weight: bold;
     font-size: 1em;

@@ -19,7 +19,7 @@ body {
     margin: 0 auto;
 }
 
-h1 {
+webheader {
     font-weight: bold;
     font-size: 1em;
 }
@@ -28,7 +28,7 @@ h1 {
 <body>
 <div class="content">
 
-<h1>Web Design Projects</h1>
+<webheader>Web Design Projects</webheader>
 
 </div>
 </body>

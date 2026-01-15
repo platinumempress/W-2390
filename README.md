@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
     margin: 0;
     padding: 20px;
-    font-family: Arial, sans-serif;
+    font-family: 'Press+Start';
 }
 
 .content {
@@ -29,7 +29,7 @@ h1 {
 <body>
 <div class="content">
 
- Web Design Projects :
+ Web Design Projects 
 
 </div>
 </body>

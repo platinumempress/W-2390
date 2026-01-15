@@ -25,7 +25,7 @@ h1 {
 }
 
 a {
-    color: rgb(85, 40, 145);
+    color: rgb(101, 52, 166);
 }
 
 webheader {

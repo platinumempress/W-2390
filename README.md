@@ -2,7 +2,7 @@
 <head>
 <style>
 body {
-    background-image: url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjE3dHR0MnVlMmQ4dWh1M3BuY3d6eGxhNWhhN2dtN3FnemJ2NjN4eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0HlNQ03J5JxX6lva/giphy.gif');
+    background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjU0YjgyNnV2bmI4cWl4aWU5eDcwcjAxdWhiYWplazR3cnJoemoyeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7aCXpnE2y0YCCoJa/giphy.gif');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -24,12 +24,29 @@ h1 {
     color: #2c3e50;
     text-align: center;
 }
+
+.sparkle {
+    color: #FFD700;
+    text-shadow: 0 0 10px #FFD700, 0 0 20px #FFA500, 0 0 30px #FF8C00;
+    font-weight: bold;
+    animation: sparkle 1.5s infinite alternate;
+}
+
+@keyframes sparkle {
+    from {
+        text-shadow: 0 0 10px #FFD700, 0 0 20px #FFA500, 0 0 30px #FF8C00;
+    }
+    to {
+        text-shadow: 0 0 20px #FFD700, 0 0 30px #FFA500, 0 0 40px #FF8C00, 0 0 50px #FFD700;
+    }
 </style>
 </head>
 <body>
 <div class="content">
 
- Web Design Projects :
+<h1><span class="sparkle">W-2390</span></h1>
+
+ Web Design Projects 
 
 </div>
 </body>

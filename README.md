@@ -29,7 +29,7 @@ h1 {
 <body>
 <div class="content">
 
- ##### Web Design Projects 
+ <strong>Web Design Projects</strong> 
 
 </div>
 </body>

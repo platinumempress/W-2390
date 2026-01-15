@@ -23,7 +23,7 @@ h1 {
     color: rgb(52, 14, 70);
     text-align: center;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 2em;
 }
 </style>
 </head>

@@ -24,6 +24,10 @@ h1 {
     text-align: center;
 }
 
+a {
+    color: rgb(52, 14, 70);
+}
+
 webheader {
     font-weight: bold;
     font-size: 1.5em;

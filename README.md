@@ -20,8 +20,10 @@ body {
 }
 
 h1 {
-    text align: center;
+    color: rgb(52, 14, 70);
+    text-align: center;
 }
+
 webheader {
     font-weight: bold;
     font-size: 1.5em;

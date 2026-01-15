@@ -20,7 +20,7 @@ body {
 }
 
 h1 {
-    color: #2c3e50;
+    color: rgb(52, 14, 70);
     text-align: center;
 }
 </style>

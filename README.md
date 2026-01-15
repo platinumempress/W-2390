@@ -13,7 +13,6 @@ body {
 }
 
 .content {
-    background-color: rgba(255, 255, 255, 0.85);
     padding: 30px;
     border-radius: 10px;
     max-width: 800px;

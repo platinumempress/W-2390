@@ -20,17 +20,15 @@ body {
 }
 
 h1 {
-    color: rgb(52, 14, 70);
-    text-align: center;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1em;
 }
 </style>
 </head>
 <body>
 <div class="content">
 
- <strong>Web Design Projects</strong> 
+<h1>Web Design Projects</h1>
 
 </div>
 </body>

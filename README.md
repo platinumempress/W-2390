@@ -18,10 +18,21 @@
     box-sizing: border-box;
   }
 
-  .top {
-     background-color: #2e16c9; 
-     padding-left: 40px; 
-  }
+    body {
+     background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjU0YjgyNnV2bmI4cWl4aWU5eDcwcjAxdWhiYWplazR3cnJoemoyeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7aCXpnE2y0YCCoJa/giphy.gif');
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     margin: 0;
+     padding: 20px;
+     font-family: 'Press Start 2P', cursive;
+    }
+
+    .top {
+      padding-left: 40px;
+      background-color: transparent;
+    }
 
   .jump a {
      display: inline-flex;

@@ -1,63 +1,82 @@
 <html>
 <head>
-<style>
-body {
-    background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjU0YjgyNnV2bmI4cWl4aWU5eDcwcjAxdWhiYWplazR3cnJoemoyeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7aCXpnE2y0YCCoJa/giphy.gif');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 20px;
-    font-family: 'Press+Start';
-}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://unpkg.com/three@0.128.0/examples/js/shaders/CopyShader.js"></script>
+<script src="https://unpkg.com/three@0.128.0/examples/js/shaders/LuminosityHighPassShader.js"></script>
+<script src="https://unpkg.com/three@0.128.0/examples/js/postprocessing/EffectComposer.js"></script>
+<script src="https://unpkg.com/three@0.128.0/examples/js/postprocessing/RenderPass.js"></script>
+<script src="https://unpkg.com/three@0.128.0/examples/js/postprocessing/ShaderPass.js"></script>
+<script src="https://unpkg.com/three@0.128.0/examples/js/postprocessing/UnrealBloomPass.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
-.content {
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .top {
+     background-color: #2e16c9; 
+     padding-left: 40px; 
+  }
+
+  .jump a {
+     display: inline-flex;
+     min-height: auto;
+     justify-content: center;
+     margin: 10px auto;
+     padding: .5em 1em;
+     background-color: #161a20;
+     border: none;
+     color: #e4f1fb;
+     border-radius: 60px;
+     align-items: center;
+     font-size: 1em;
+     font-family: 'Press Start 2P';
+     position: relative;
+     width: auto;
+     margin-left: 20px;
+  }
+
+  .jump a::after{
+     content: '';
+     position: absolute;
+     width: 107%;
+     height: 102%;
+     background-image: linear-gradient(to bottom right, #008cff, #e100ff); 
+     border-radius: 60px;
+     z-index: -1;
+  }
+
+  .jump a:hover {
+     z-index: 0;
+     box-shadow: 30px 0 100px #008cff85,
+     -30px 0 100px #e100ffbb;
+  }
+  
+  .content {
     padding: 30px;
     border-radius: 10px;
     max-width: 800px;
     margin: 0 auto;
-}
+  }
 
-h1 {
-    color: rgb(85, 23, 114);
-    text-align: center;
-}
-
-a {
-    color: rgb(101, 52, 166);
-}
-
-webheader {
+  webheader {
     font-weight: bold;
     font-size: 1.5em;
-}
+    color: #e4f1fb;
+  }
 
-.jump {
+  .jump {
     list-style: none;
     margin: 10px 0;
-}
-
-.jump a {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: rgb(37, 23, 114);
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    border: 2px solid rgb(85, 23, 114);
-    font-size: 0.9em;
-    transition: all 0.3s ease;
-}
-
-.jump a:hover {
-    background-color: rgb(55, 35, 140);
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
+  }
 </style>
 </head>
-<body>
+<body class="top">
 <div class="content">
 
 <webheader>Web Design Projects</webheader>

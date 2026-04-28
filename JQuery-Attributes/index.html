@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery Attributes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"> 
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" 
+    rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <style>
+    .top {
+        background-image: url('images/sheba.jpeg');
+        background-size: cover; /* Cover the entire area */
+        background-repeat: no-repeat; /* Prevent the image from repeating */
+        background-position: center; /* Center the image */
+        height: 80vh; /* Ensure the top section takes up the full viewport height */
+        width: 100%; /* Ensure the section spans the full width of the page */
+        display: flex; /* Use flexbox for centering */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+    }
+
+    #container {
+        max-width: 1200px; /* Set a maximum width for the container */
+        margin: 0 auto; /* Center the container */
+        padding: 0px; /* Add some padding */
+        display: flex;
+        flex-direction: column; /* Stack children vertically */
+        min-height: 100vh; /* Ensure the container fills the viewport height */
+
+    }  
+
+    main {
+    flex: 1; /* Allow the main content to grow and fill available space */
+    display: flex;
+    flex-direction: column; /* Stack sections vertically */
+}
+    
+    .section1 {
+      background-color:#FFFDE5;
+      padding-bottom: 50px;
+      padding-top: 6px;
+     
+      text-align: center;       
+
+    }
+
+    .section2 {
+      background-color:rgb(250, 237, 222);
+      padding-bottom: 50px;
+      padding-top: 6px; 
+      text-align: center; 
+    }
+
+    .section3 {
+    flex: 1; /* Make section3 fill the remaining space */
+    background-color: #FFFDE5; /* Ensure it matches the design */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+}
+
+    .slider {
+    width: 100%; /* Make the image scale to fit the container's width */
+    max-width: 800px; /* Limit the maximum width of the image */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: contain; /* Ensure the image fits within the container */
+    margin: 0 auto; /* Center the image horizontally */
+}
+   
+
+    h1, h2  {
+          text-align: center;
+        }
+
+    footer {
+    background-color:rgb(250, 237, 222);
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 0px;
+
+      }  
+    </style>
+</head>
+<body>
+  <div id="container">
+    <div class="top">
+    <header>
+      
+    </header>
+    </div> 
+    <main>
+    <div class="section1">
+        <h1>Welcome to the World of Orchids</h1>
+    <hr>
+        <p>Orchids are one of the largest families of
+           flowering plants, with over 25,000 species
+           and 100,000 hybrids. They are known for their
+            unique and intricate flowers, which come in a
+             wide variety of shapes, sizes, and colors.</p>
+        <p>Orchids are found in almost every part of the 
+          world, except for Antarctica. They thrive in diverse
+           environments, from tropical rainforests to arid deserts.
+            Some orchids even grow on trees or rocks, using their 
+            roots to absorb moisture and nutrients from the air.
+             They have been used in traditional medicine, perfumes,
+              and as ornamental plants.</p>
+    </div>
+    <div class="section2"> 
+      <h2>Orchid Gallery</h2>
+
+        <div class="nails">
+          <img id="slide1" class="thumbs" src="images/tendrilth.jpg" alt="alien">
+          <img id="slide2" class="thumbs" src="images/mancth.jpeg" alt="naked">
+          <img id="slide3" class="thumbs" src="images/shroomth.jpeg" alt="smurf">
+          <img id="slide4" class="thumbs" src="images/monkeyth.jpeg" alt="saiyan">
+          <img id="slide5" class="thumbs" src="images/batth.jpeg" alt="black">
+          <img id="slide6" class="thumbs" src="images/singth.jpeg" alt="blue">
+        </div>
+    </div>    
+    <div class="section3">   
+        <img class="slider responsive-img" src="images/yellowre.jpeg" alt="shoe">
+    </div>     
+    </main>
+  
+  </div>
+    <footer>&copy; 2025 All Rights Reserved</footer>
+     
+    <hr>
+    <div class="row">
+      <div class="col-lg-12 py-4 text-center">
+        <i class="fab fa-facebook fs-3"></i>
+        <i class="fab fa-twitter fs-3"></i>
+        <i class="fab fa-instagram fs-3"></i>
+        <i class="fab fa-tiktok fs-3"></i>   
+    </div>
+   </div>
+   <script  src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js"></script>
+    <script src="js/scripts.js"></script> 
+    <script src="js/app.js"></script>
+
+    
+</body>
+</html> 

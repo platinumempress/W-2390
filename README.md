@@ -41,12 +41,14 @@ webheader {
 
  <h2>Introduction-to-JQuery</h2>
     <ul>
-        <li><a href="https://www.figma.com/design/LzE3Sfrojej6yepuqAhAP5/1st-Wireframe?node-id=0-1&p=f&t=ECqfQna3Ju6eGjl6-0" target="_blank">Wireframe Design</a></li> 
+        <li><a href="index.html">Home</a></li>
+           <li><a href="effects.html">Effects</a></li>
+           <li><a href="csstext.html">Css&Text</a></li> 
     </ul>
     
     <h2>Prototype</h2>
     <ul>
-        <li><a href="https://www.figma.com/design/WoFSQrHuBCnLStmVNZ8WYy/1st-Prototyping?node-id=0-1&p=f&t=iUpJXBnB74srs7uS-0" target="_blank">Prototype Design</a></li> 
+        <li><a ">Prototype Design</a></li> 
     </ul>
     
     <h2>1 page</h2>

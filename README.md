@@ -40,20 +40,21 @@ webheader {
 
 .jump a {
     display: inline-block;
-    padding: 12px 24px;
+    padding: 14px 32px;
     background-color: rgb(101, 52, 166);
     color: white;
     text-decoration: none;
-    border-radius: 5px;
-    border: 2px solid rgb(85, 23, 114);
+    border-radius: 50px;
+    border: none;
     font-size: 0.9em;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 12px rgba(101, 52, 166, 0.4);
 }
 
 .jump a:hover {
     background-color: rgb(85, 23, 114);
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(85, 23, 114, 0.5);
 }
 </style>
 </head>

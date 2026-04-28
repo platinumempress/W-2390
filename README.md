@@ -28,33 +28,37 @@
      min-height: auto;
      justify-content: center;
      margin: 10px auto;
-     padding: .5em 1em;
+     padding: .7em 2em;
      background-color: #161a20;
      border: none;
      color: #e4f1fb;
-     border-radius: 60px;
+     border-radius: 50px;
      align-items: center;
-     font-size: 1em;
+     font-size: 0.85em;
      font-family: 'Press Start 2P';
      position: relative;
      width: auto;
      margin-left: 20px;
+     transition: all 0.3s ease;
   }
 
   .jump a::after{
      content: '';
      position: absolute;
-     width: 107%;
-     height: 102%;
-     background-image: linear-gradient(to bottom right, #008cff, #e100ff); 
-     border-radius: 60px;
+     width: 105%;
+     height: 100%;
+     background-image: linear-gradient(135deg, #00d4ff, #ff00ff); 
+     border-radius: 50px;
      z-index: -1;
+     transition: all 0.3s ease;
   }
 
   .jump a:hover {
-     z-index: 0;
-     box-shadow: 30px 0 100px #008cff85,
-     -30px 0 100px #e100ffbb;
+     padding: .7em 2.2em;
+     box-shadow: 0 0 30px #00d4ff,
+     0 0 50px #ff00ff,
+     inset 0 0 20px rgba(0, 212, 255, 0.2);
+     transform: translateY(-3px);
   }
   
   .content {

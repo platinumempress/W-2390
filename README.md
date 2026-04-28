@@ -40,11 +40,12 @@ webheader {
 <webheader>Web Design Projects</webheader>
 
  <h2>Introduction-to-JQuery</h2>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-           <li><a href="effects.html">Effects</a></li>
-           <li><a href="csstext.html">Css&Text</a></li> 
-    </ul>
+   <ul>
+        <li class="jump"><a href="Introduction-to-JQuery" target="_blank">Introduction to JQuery</a></li>
+        <li class="jump"><a href="JQuery-Attributes" target="_blank">JQuery Attributes</a></li>
+        <li class="jump"><a href="https://www.figma.com/design/dXIsgxTlqXtQpcYPI2tNDP/BillyMac?t=MoLDptZ672uqsNlT-0" target="_blank">Figma Layout for JQuery Billy Mac Website</a></li>
+		<li class="jump"><a href="JQuery-Billy-Mac-Website" target="_blank">JQuery Billy Mac Website</a></li>
+    </ul> 
  <h2>JQuery-Attributes</h2>
     <ul>
         <li><a ">Prototype Design</a></li> 

@@ -2,7 +2,7 @@
 
 <div style="height: 100vh; margin: 0; padding: 0; background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjU0YjgyNnV2bmI4cWl4aWU5eDcwcjAxdWhiYWplazR3cnJoemoyeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7aCXpnE2y0YCCoJa/giphy.gif'); background-size: cover; background-position: center; background-attachment: fixed; background-repeat: no-repeat; font-family: 'Press Start 2P', cursive; color: #e4f1fb; display: flex; align-items: center; justify-content: center;">
   <div style="max-width: 800px; padding: 30px; border-radius: 10px;">
-    <h1 style="font-weight: bold; font-size: 3.5em; text-align: center; margin: 0 0 20px 0; text-shadow: 0 0 20px #00d4ff, 0 0 40px #ff00ff; letter-spacing: 3px;" 
+    <h1 style="font-weight: bold; font-size: 3.5em; text-align: center; margin: 0 0 20px 0; text-shadow: 0 0 20px #00d4ff, 0 0 40px #ff00ff; letter-spacing: 3px;" ></h1>
     <webheader style="font-weight: bold; font-size: 1.5em; text-align: center;">Web Design Projects</webheader>
 
     <ul style="list-style: none; padding: 0; margin: 10px 0;">

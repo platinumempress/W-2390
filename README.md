@@ -46,23 +46,7 @@ webheader {
         <li class="jump"><a href="https://www.figma.com/design/dXIsgxTlqXtQpcYPI2tNDP/BillyMac?t=MoLDptZ672uqsNlT-0" target="_blank">Figma Layout for JQuery Billy Mac Website</a></li>
 		<li class="jump"><a href="JQuery-Billy-Mac-Website" target="_blank">JQuery Billy Mac Website</a></li>
     </ul> 
- <h2>JQuery-Attributes</h2>
-    <ul>
-        <li><a ">Prototype Design</a></li> 
-    </ul>
-    
- <h2>1 page</h2>
-    <ul>
-        <li><a href="https://www.figma.com/design/OUxYv4oOd1HztiSwltjSwr/1-page?node-id=0-1&p=f&t=Sr0xMEYArfg7hx8s-0" target="_blank">1 page Design</a></li> 
-        <li><a href="Crypto/index.html" target="_blank">Crypto</a></li>
-    </ul>
-    
-    <h2>4 page</h2> 
-    <ul>
-        <li><a href="https://www.figma.com/design/Zn2Ksx4eWD65cVpwHNCXgk/figma1?node-id=133-828&t=VRXD3nv1rasdMS84-0" target="_blank">4 page Design</a></li>
-        <li><a href="home/index.html" target="_blank">Gourmet Food</a></li>
-    </ul>
-
+ 
 
 </div>
 </body>

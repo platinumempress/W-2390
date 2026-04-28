@@ -32,6 +32,29 @@ webheader {
     font-weight: bold;
     font-size: 1.5em;
 }
+
+.jump {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.jump a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgb(101, 52, 166);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid rgb(85, 23, 114);
+    font-size: 0.9em;
+    transition: all 0.3s ease;
+}
+
+.jump a:hover {
+    background-color: rgb(85, 23, 114);
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
 </style>
 </head>
 <body>
@@ -39,13 +62,12 @@ webheader {
 
 <webheader>Web Design Projects</webheader>
 
- <h2>Introduction-to-JQuery</h2>
-   <ul>
-        <li class="jump"><a href="Introduction-to-JQuery" target="_blank">Introduction to JQuery</a></li>
-        <li class="jump"><a href="JQuery-Attributes" target="_blank">JQuery Attributes</a></li>
-        <li class="jump"><a href="https://www.figma.com/design/dXIsgxTlqXtQpcYPI2tNDP/BillyMac?t=MoLDptZ672uqsNlT-0" target="_blank">Figma Layout for JQuery Billy Mac Website</a></li>
-		<li class="jump"><a href="JQuery-Billy-Mac-Website" target="_blank">JQuery Billy Mac Website</a></li>
-    </ul> 
+<ul>
+    <li class="jump"><a href="Introduction-to-JQuery" target="_blank">Introduction to JQuery</a></li>
+    <li class="jump"><a href="JQuery-Attributes" target="_blank">JQuery Attributes</a></li>
+    <li class="jump"><a href="https://www.figma.com/design/dXIsgxTlqXtQpcYPI2tNDP/BillyMac?t=MoLDptZ672uqsNlT-0" target="_blank">Figma Layout for JQuery Billy Mac Website</a></li>
+    <li class="jump"><a href="JQuery-Billy-Mac-Website" target="_blank">JQuery Billy Mac Website</a></li>
+</ul> 
  
 
 </div>

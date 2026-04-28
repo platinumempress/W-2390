@@ -45,13 +45,12 @@ webheader {
            <li><a href="effects.html">Effects</a></li>
            <li><a href="csstext.html">Css&Text</a></li> 
     </ul>
-    
-    <h2>Prototype</h2>
+ <h2>JQuery-Attributes</h2>
     <ul>
         <li><a ">Prototype Design</a></li> 
     </ul>
     
-    <h2>1 page</h2>
+ <h2>1 page</h2>
     <ul>
         <li><a href="https://www.figma.com/design/OUxYv4oOd1HztiSwltjSwr/1-page?node-id=0-1&p=f&t=Sr0xMEYArfg7hx8s-0" target="_blank">1 page Design</a></li> 
         <li><a href="Crypto/index.html" target="_blank">Crypto</a></li>
